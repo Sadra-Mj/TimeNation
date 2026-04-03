@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Time Nation — Official Public Portal</title>
+    <meta name="description"
+        content="Time Nation public portal — government services, citizenship, constitution, and official documents." />
+    <link rel="stylesheet" href="styles.css" />
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+    <!-- Background (single cohesive design) -->
+    <div class="bg" aria-hidden="true"></div>
+
+    <!-- NAV -->
+    <!-- NAV -->
+    <header class="navWrap">
+        <div class="nav glass">
+            <a class="brand" href="#top" aria-label="Time Nation Home">
+                <span class="brandSeal">
+                    <img src="assets/flag.jpg" alt="Time Nation flag" />
+                </span>
+                <span class="brandTxt">
+                    <strong>Time Nation</strong>
+                    <em>Official Public Portal</em>
+                </span>
+            </a>
+
+            <nav class="navLinks" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#documents">Documents</a>
+                <a href="#constitution">Constitution</a>
+                <a href="#government">Government</a>
+                <a href="#citizenship">Citizenship</a>
+                <a href="#economy">Economy</a>
+            </nav>
+
+            <div class="navActions">
+                <button class="ghost" id="openPrivacy" type="button">Privacy</button>
+                <a class="cta" href="#apply">Apply</a>
+                <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobileMenu glass" id="mobileMenu" aria-hidden="true">
+            <a href="#about">About</a>
+            <a href="#documents">Documents</a>
+            <a href="#constitution">Constitution</a>
+            <a href="#government">Government</a>
+            <a href="#citizenship">Citizenship</a>
+            <a href="#economy">Economy</a>
+            <a class="cta2" href="#apply">Apply</a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <main id="top" class="wrap">
+        <section class="hero">
+            <div class="heroTop" data-animate>
+                <div class="pillRow">
+                    <span class="pill">PUBLIC PORTAL</span>
+                    <span class="pill pill--muted">VERIFIED INFORMATION</span>
+                    <span class="pill pill--muted">TIME NATION • 2025</span>
+                </div>
+
+                <h1 class="heroTitle">
+                    Government Services & Public Documents
+                    <span class="heroTitleGlow" aria-hidden="true"></span>
+                </h1>
+
+                <p class="heroLead">
+                    Access official documents, government directory, and citizenship services of Time Nation —
+                    a decentralized society based on equality, innovation, and time as a core resource.
+                </p>
+
+                <div class="heroBtns">
+                    <a class="btnPrimary" href="#apply">Apply for Citizenship</a>
+                    <a class="btnGlass" href="#documents">Read Public Documents</a>
+                </div>
+            </div>
+
+            <!-- HERO STRIP (new layout element) -->
+            <div class="heroStrip glass" data-animate>
+                <div class="stripItem">
+                    <div class="k">Founded</div>
+                    <div class="v">19 Apr 2025 • 19:04:25</div>
+                </div>
+                <div class="stripItem">
+                    <div class="k">National Currency</div>
+                    <div class="v">DARMIN</div>
+                </div>
+                <div class="stripItem">
+                    <div class="k">Governance</div>
+                    <div class="v">Decentralized model</div>
+                </div>
+                <div class="stripItem">
+                    <div class="k">Minimum Contribution</div>
+                    <div class="v">1 m² (server / blockchain)</div>
+                </div>
+            </div>
+
+            <!-- HERO FEATURE GRID (not the old left-right card layout) -->
+            <div class="heroGrid">
+                <article class="motto glass" data-animate>
+                    <header class="mottoHead">
+                        <span class="sealMini"><img src="assets/flag.jpg" alt="" /></span>
+                        <div>
+                            <div class="mottoT">National Motto</div>
+                            <div class="mottoS">Public statement</div>
+                        </div>
+                    </header>
+                    <div class="mottoQuote">“All are equal before Time in the Universe.”</div>
+                    <div class="mottoBody">Time is treated as a universal asset accessible to every citizen.</div>
+                </article>
+
+                <article class="feature glass" data-animate>
+                    <div class="icon">📜</div>
+                    <div class="t">Constitution</div>
+                    <div class="d">Foundational principles, rights, and governance framework.</div>
+                    <a class="go" href="#constitution">Open →</a>
+                </article>
+
+                <article class="feature glass" data-animate>
+                    <div class="icon">🪪</div>
+                    <div class="t">Citizenship</div>
+                    <div class="d">Requirements, procedure, and review within 3 days.</div>
+                    <a class="go" href="#apply">Apply →</a>
+                </article>
+
+                <article class="feature glass" data-animate>
+                    <div class="icon">🏛️</div>
+                    <div class="t">Government</div>
+                    <div class="d">Directory of key officials and public administration.</div>
+                    <a class="go" href="#government">View →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>About Time Nation</h2>
+                <p>A public overview of mission, structure, and social principles.</p>
+            </div>
+
+            <div class="split">
+                <div class="glass card" data-animate>
+                    <h3>Mission</h3>
+                    <p>
+                        Build a society where time becomes an asset measured, respected, and exchanged fairly —
+                        enabling innovation and collaboration across communities and epochs.
+                    </p>
+                    <ul class="bullets">
+                        <li>Equality before Time as a universal resource</li>
+                        <li>Decentralized governance model</li>
+                        <li>Metaverse participation and verification tasks</li>
+                    </ul>
+                </div>
+
+                <div class="glass card flagCard" data-animate>
+                    <div class="flagPreview">
+                        <img src="assets/flag.jpg" alt="Time Nation Flag" />
+                    </div>
+                    <div class="flagMeta">
+                        <div class="k">Territory</div>
+                        <div class="v">Citizen-contributed land fund (tokenized)</div>
+                    </div>
+                    <div class="flagMeta">
+                        <div class="k">Economy</div>
+                        <div class="v">Earn DARMIN via tasks & participation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DOCUMENTS -->
+        <section id="documents" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>Public Documents</h2>
+                <p>Official texts published through the portal.</p>
+            </div>
+
+            <div class="docs">
+                <article class="glass doc" data-animate>
+                    <div class="docTop">
+                        <span class="sealMini"><img src="assets/flag.jpg" alt="" /></span>
+                        <div>
+                            <div class="docT">Declaration of Independence</div>
+                            <div class="docM">Public document • 19 April 2025</div>
+                        </div>
+                    </div>
+                    <p class="docP">
+                        We, the people of Time Nation, recognizing the importance of time as a primary resource,
+                        proclaim our independence and our aspiration
+                        to create a society based on equality, justice, and innovation.
+                    </p>
+                    <ol class="docList">
+                        <li>Right to self-governance and decentralized governance model.</li>
+                        <li>Equality before Time; time belongs to everyone.</li>
+                        <li>Individual freedom and responsibility in society and metaverse.</li>
+                    </ol>
+                </article>
+
+                <article class="glass doc" data-animate>
+                    <div class="docTop">
+                        <span class="sealMini"><img src="assets/flag.jpg" alt="" /></span>
+                        <div>
+                            <div class="docT">Public Notice</div>
+                            <div class="docM">Portal information</div>
+                        </div>
+                    </div>
+                    <p class="docP">
+                        This portal provides public access to official documents, government directory information, and
+                        online application tools for citizenship.
+                    </p>
+                    <div class="note">
+                        Review of citizenship requests is processed within 3 days (public statement).
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONSTITUTION -->
+        <section id="constitution" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>Constitution</h2>
+                <p>Foundational law of the State of Time Nation (public text).</p>
+            </div>
+
+            <div class="glass accord" data-animate>
+                <button class="accBtn" type="button" aria-expanded="false">
+                    <span>Open Constitution</span>
+                    <span class="chev" aria-hidden="true"></span>
+                </button>
+                <div class="accBody" hidden>
+                    <div class="text">
+                        <h3>Constitution of the State of TimeNation</h3>
+                        <h4>Preamble</h4>
+                        <p>We, the people of TimeNation, proclaim this Constitution as the foundation of our state and
+                            commit to protect the rights and freedoms of every citizen.</p>
+
+                        <h4>Chapter I — Fundamental Principles</h4>
+                        <p><strong>Article 1.</strong> All power belongs to the people.</p>
+                        <p><strong>Article 2.</strong> All citizens are equal before the law.</p>
+                        <p><strong>Article 3.</strong> Territory consists of citizen-invested land fund contributions.
+                        </p>
+                        <p><strong>Article 5.</strong> Time is a public good accessible to every citizen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GOVERNMENT -->
+        <section id="government" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>Government</h2>
+                <p>Directory of key officials (public information).</p>
+            </div>
+
+            <div class="people">
+                <button class="glass person" data-person="president" type="button" data-animate>
+                    <span class="avatar">TN</span>
+                    <span class="pTxt">
+                        <span class="pName">Gennady Fimovich Lerner</span>
+                        <span class="pRole">President</span>
+                    </span>
+                    <span class="pGo">Details →</span>
+                </button>
+
+                <button class="glass person" data-person="vice" type="button" data-animate>
+                    <span class="avatar">TN</span>
+                    <span class="pTxt">
+                        <span class="pName">Olga Alexandrovna Fedorova-Beloshitska</span>
+                        <span class="pRole">Vice President</span>
+                    </span>
+                    <span class="pGo">Details →</span>
+                </button>
+
+                <button class="glass person" data-person="pm" type="button" data-animate>
+                    <span class="avatar">TN</span>
+                    <span class="pTxt">
+                        <span class="pName">Elina Viktorovna Rein</span>
+                        <span class="pRole">Prime Minister (temporary)</span>
+                    </span>
+                    <span class="pGo">Details →</span>
+                </button>
+
+                <button class="glass person" data-person="foreign" type="button" data-animate>
+                    <span class="avatar">TN</span>
+                    <span class="pTxt">
+                        <span class="pName">Alexander Sergeevich Volter</span>
+                        <span class="pRole">Minister of Foreign Affairs</span>
+                    </span>
+                    <span class="pGo">Details →</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- CITIZENSHIP -->
+        <section id="citizenship" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>Citizenship</h2>
+                <p>Procedure, requirements, and public obligations.</p>
+            </div>
+
+            <div class="steps">
+                <div class="glass step" data-animate>
+                    <div class="n">01</div>
+                    <div class="t">Submit online</div>
+                    <div class="d">Send your application with photo and identity document.</div>
+                </div>
+                <div class="glass step" data-animate>
+                    <div class="n">02</div>
+                    <div class="t">Verification</div>
+                    <div class="d">Review and confirmation (public statement: within 3 days).</div>
+                </div>
+                <div class="glass step" data-animate>
+                    <div class="n">03</div>
+                    <div class="t">Contribution</div>
+                    <div class="d">Minimum 1 m² contribution (server / blockchain).</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ECONOMY -->
+        <section id="economy" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>Economy</h2>
+                <p>Time-based participation and DARMIN compensation.</p>
+            </div>
+
+            <div class="econ">
+                <div class="glass econCard" data-animate>
+                    <h3>Earning DARMIN</h3>
+                    <p>Citizens earn DARMIN via verified participation and tasks.</p>
+                </div>
+                <div class="glass econCard" data-animate>
+                    <h3>Spending DARMIN</h3>
+                    <p>Use DARMIN for goods/services and to pay for other citizens’ time.</p>
+                </div>
+                <div class="glass econCard" data-animate>
+                    <h3>Time Exchange</h3>
+                    <p>A dynamic economy built on exchange of work time and collaboration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- APPLY -->
+        <section id="apply" class="section">
+            <div class="sectionHead" data-animate>
+                <h2>Online Application</h2>
+                <p>Submit an application for citizenship with required attachments.</p>
+            </div>
+
+            <div class="apply">
+                <form id="citizenshipForm" class="form glass" enctype="multipart/form-data">
+                    <div class="row2">
+                        <label class="field">
+                            <span>First Name</span>
+                            <input type="text" name="firstName" required />
+                        </label>
+
+                        <label class="field">
+                            <span>Last Name</span>
+                            <input type="text" name="lastName" required />
+                        </label>
+                    </div>
+
+                    <div class="row2">
+                        <label class="field">
+                            <span>Phone</span>
+                            <input type="tel" name="phone" required />
+                        </label>
+
+                        <label class="field">
+                            <span>Email</span>
+                            <input type="email" name="email" required />
+                        </label>
+                    </div>
+
+                    <div class="row2">
+                        <label class="field">
+                            <span>Photo</span>
+                            <input type="file" name="photo" accept="image/*" required />
+                        </label>
+
+                        <label class="field">
+                            <span>Identity Document</span>
+                            <input type="file" name="identityDocument" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"
+                                required />
+                        </label>
+                    </div>
+
+                    <div class="actions">
+                        <button type="submit" class="btnPrimary">Submit Application</button>
+                        <button type="button" class="btnGlass" id="prefillExample">Prefill Example</button>
+                    </div>
+
+                    <p id="formStatus" class="status"></p>
+                </form>
+
+                <aside class="glass side" data-animate>
+                    <div class="sideTop">
+                        <span class="sealMini"><img src="assets/flag.jpg" alt="" /></span>
+                        <div>
+                            <div class="sideT">Ministry of Internal Affairs</div>
+                            <div class="sideS">Citizen Registry & Applications</div>
+                        </div>
+                    </div>
+                    <div class="hr"></div>
+                    <ul class="sideList">
+                        <li><strong>Review:</strong> within 3 days</li>
+                        <li><strong>Required:</strong> photo + identity document</li>
+                        <li><strong>Investment:</strong> ≥ 1 m² contribution</li>
+                    </ul>
+                    <button class="btnGlass w100" type="button" id="openContacts">Government Contacts</button>
+                </aside>
+            </div>
+        </section>
+
+        <footer class="footer glass" data-animate>
+            <div class="fLeft">
+                <span class="sealMini"><img src="assets/flag.jpg" alt="" /></span>
+                <div>
+                    <div class="fT">Time Nation</div>
+                    <div class="fS">Official Public Portal • Informational presentation</div>
+                </div>
+            </div>
+            <div class="fRight">
+                <a href="#documents">Documents</a>
+                <a href="#constitution">Constitution</a>
+                <a href="#government">Government</a>
+                <a href="#apply">Apply</a>
+                <button class="ghost" id="openPrivacyFooter">Privacy</button>
+            </div>
+        </footer>
+    </main>
+
+    <!-- MODALS -->
+    <div class="modal" id="privacyModal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="back" data-close></div>
+        <div class="panel glass">
+            <div class="mHead">
+                <div>
+                    <div class="mTitle">Privacy Policy</div>
+                    <div class="mSub">Personal data processing summary</div>
+                </div>
+                <button class="x" data-close aria-label="Close">✕</button>
+            </div>
+            <div class="mBody">
+                <p><strong>Operator:</strong> United Time Epochs</p>
+                <ul>
+                    <li>We provide information about processing upon request.</li>
+                    <li>We protect personal data from unlawful access/disclosure.</li>
+                    <li>We terminate processing where required by applicable law.</li>
+                </ul>
+            </div>
+            <div class="mFoot">
+                <button class="btnPrimary" data-close type="button">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="personModal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="back" data-close></div>
+        <div class="panel glass">
+            <div class="mHead">
+                <div>
+                    <div class="mTitle" id="personTitle">Official</div>
+                    <div class="mSub" id="personSubtitle">Role</div>
+                </div>
+                <button class="x" data-close aria-label="Close">✕</button>
+            </div>
+            <div class="mBody" id="personBody">…</div>
+            <div class="mFoot">
+                <button class="btnGlass" data-close type="button">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="contactsModal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="back" data-close></div>
+        <div class="panel glass">
+            <div class="mHead">
+                <div>
+                    <div class="mTitle">Government Contacts</div>
+                    <div class="mSub">Portal contact placeholders</div>
+                </div>
+                <button class="x" data-close aria-label="Close">✕</button>
+            </div>
+            <div class="mBody">
+                <div class="cGrid">
+                    <div class="glass cCard">
+                        <strong>Ministry of Internal Affairs</strong>
+                        <div class="cMuted">Citizenship & Registry</div>
+                        <div class="cMuted">Channel: official portal submission</div>
+                    </div>
+                    <div class="glass cCard">
+                        <strong>Public Secretariat</strong>
+                        <div class="cMuted">Public documents & announcements</div>
+                        <div class="cMuted">Channel: official portal</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mFoot">
+                <button class="btnPrimary" data-close type="button">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="toTop" id="toTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

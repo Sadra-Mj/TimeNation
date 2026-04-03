@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Time Nation — Government Access</title>
+  <meta name="description" content="Government access portal for Time Nation administrators." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <main class="govPageWrap">
+    <section class="govAuthCard glass">
+      <div class="govAuthTop">
+        <div class="govBadge">GOVERNMENT ACCESS</div>
+        <h1>Official Government Login</h1>
+        <p>Authorized government staff can access citizen applications from this secure page.</p>
+      </div>
+
+      <form id="governmentLoginForm" class="govForm" novalidate>
+        <label class="govField">
+          <span>Government ID</span>
+          <input type="text" name="governmentId" placeholder="Enter government ID" required />
+        </label>
+
+        <label class="govField">
+          <span>Password</span>
+          <input type="password" name="password" placeholder="Enter password" required />
+        </label>
+
+        <button type="submit" class="btnPrimary govSubmitBtn">Login</button>
+        <p id="governmentLoginStatus" class="govStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="government.js"></script>
+</body>
+</html>
